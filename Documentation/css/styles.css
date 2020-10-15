@@ -1,0 +1,222 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+    padding: 50px 0
+}
+
+section {
+    padding: 20px 0;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    background: var(--white);
+    ;
+    color: #555555;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.321em;
+    letter-spacing: 0.009em;
+    text-rendering: optimizeLegibility;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #f6994b;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    margin: 0 0 1rem;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 28px;
+    color: #fff
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+strong {
+    letter-spacing: 1px;
+}
+
+ul {
+    padding: 0 0 0 15px;
+}
+
+
+
+
+
+section p {
+    line-height: 28px;
+}
+
+p span {
+    color: #f6994b;
+    font-weight: bold
+}
+
+code {
+    font-size: 87.5%;
+    color: #ffff;
+    word-break: break-word;
+    background: #000;
+    padding: 11px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+}
+
+.navbar a {
+    color: #fff
+}
+
+.nav-link {
+    display: block;
+    padding: 15px 15px;
+    width: 100%;
+    transition: 0.5s
+}
+
+a.nav-link.active {
+    background: #000;
+    transition: 0.5s
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 190px;
+    height: 100vh;
+    padding: 0
+}
+
+ul.navbar {
+    display: block;
+    padding: 0;
+    width: 100%;
+    list-style-type: none
+}
+
+.navbar-nav,
+.navbar {
+    display: block
+}
+
+.theme-bg {
+    background: #f6994b;
+
+}
+
+a.navbar-brand {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border-bottom: 1px dashed #fff;
+    padding: 15px;
+    font-weight: bold;
+    margin-right: 0;
+    margin-bottom: 15px;
+    letter-spacing: 1px
+}
+
+a.navbar-brand span {
+    color: #000
+}
+
+.content-header,
+.title {
+    padding: 15px;
+    background-color: #f6994b;
+    line-height: 100%
+}
+
+.content-header h1,
+.title h2 {
+    color: #fff;
+    line-height: 100%;
+    margin-bottom: 0
+}
+
+.white-box {
+    box-shadow: 0px 0px 30px rgba(62, 14, 136, 0.12);
+    padding: 15px;
+}
+
+table code {
+    font-size: 87.5%;
+    color: #000;
+    word-break: break-word;
+    background: #f4f4f4;
+    padding: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    display: initial;
+    border-radius: 3px;
+}
+
+code ul {
+
+    list-style-type: square;
+    padding-left: 25px
+}
+
+code ul li:nth-child(6) {
+    display: block;
+}
+
+.bg-black {
+    background: #000
+}
+
+.wrap {
+    padding-left: 190px;
+}
+
+ol li {
+    margin-bottom: 5px
+}
